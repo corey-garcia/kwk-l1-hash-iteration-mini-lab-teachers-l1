@@ -15,6 +15,7 @@ end
 def iterate_through_hash
   hash.each do |city|
     puts "The #{city} summer olympics took place in #{hash[city}"
+  end 
 end
 
 def iterate_through_keys
