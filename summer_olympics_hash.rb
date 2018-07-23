@@ -1,6 +1,11 @@
 
 def create_olympics_hash
-  # Implement this method so that it returns a hash with the data provided on README.md
+  hash = {}
+  hash[Sydney] = 2000
+  hash[Athens] = 2004
+  hash[Beijing] = 2008
+  hash[London] = 2012
+  return hash
 end
 
 def add_a_key_value_pair
