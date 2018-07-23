@@ -8,3 +8,4 @@ def create_olympics_hash
   return hash
 end
 
+
