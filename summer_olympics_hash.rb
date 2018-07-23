@@ -8,19 +8,3 @@ def create_olympics_hash
   return hash
 end
 
-def add_a_key_value_pair
-  hash[Atlanta] = 1996
-end
-
-def iterate_through_hash
-  hash.each do |city|
-    puts "The #{city} summer olympics took place in #{hash[city}"
-  end 
-end
-
-def iterate_through_keys
-  upcased_cities = hash.each_key
-  upcased_cities.each do |city|
-    city.upcase
-  puts upcased_cities
-end 
